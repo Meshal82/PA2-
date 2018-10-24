@@ -12,6 +12,8 @@ public class Node<T> {
 		
 	}
 	public Node (T val) {
+		data = val ; 
+		next = null ; 
 		
 		
 		

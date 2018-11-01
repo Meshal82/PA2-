@@ -5,6 +5,7 @@ public class ArrayQueue<T> implements Queue<T> {
 	private int size , maxsize,head,tail ; 
 	private T[] nodes; 
 	
+	@SuppressWarnings("unchecked")
 	public ArrayQueue (int n) {
 		
 		
@@ -66,7 +67,7 @@ public class ArrayQueue<T> implements Queue<T> {
 		
 	}
 	
-	public int multiEnqueue(T[] els , int k ) {
+	public int multiEnqueue(T els[], int k ) {
 	 int l =0 ;
 	
 		
@@ -87,7 +88,7 @@ public class ArrayQueue<T> implements Queue<T> {
 		
 	}
 
-	public int multiServe(T[] els, int k ) {
+	public int multiServe(T[] els, int k  ) {
 		
 		int l =0 ; 
 		

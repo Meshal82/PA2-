@@ -58,7 +58,7 @@ public class LinkedStack <T> implements Stack <T>{
 	}
 	
 	
-	public int multiPush(T[] els , int k ) {
+	public int multiPush(T els[] , int k ) {
 		int l = 0 ; 
 		
 		for (int i =0 ; i< k ; i++) {
@@ -79,8 +79,8 @@ public class LinkedStack <T> implements Stack <T>{
 		
 	}
 	
-	public int multiPop(T[] els , int k ) {
-		int l = 0 ; 
+	public int multiPop(T els[], int k   ) {
+		int  l = 0 ; 
 		
 		for (int i =0 ; i<k ; i++) {
 			
